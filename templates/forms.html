@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <h1>Form to apply for Web Dev</h1>
+    <form action="/submit" method="post">
+      <div>
+        <label for="username">Enter your Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter your username" autofocus/>
+        
+      </div>
+      <div>
+        <label for="pass">Enter the password</label>
+        <input type="password" name="pass" placeholder="Enter your password">
+      </div>
+      <div>
+        <input type="radio" id="male" name="gender" value="male" />
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female" />
+        <label for="female">Female</label>
+      </div>
+      <div>
+        <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+        <label for="subscribe">Check Here</label>
+      </div>
+      <div>
+        <label for="comment">Enter your Comment</label>
+        <br>
+        <textarea id="comment" name="comment" rows="4" cols="50">
+        </textarea>
+      </div>
+      <div>
+        <label for="fruits">Options For Fruits</label>
+        <select name="fruits">
+            <option value="apple">Apple</option>
+            <option value="banana">Banana</option>
+            <option value="cherry">Cherry</option>
+        </select>
+      </div>
+      <div>
+        <label for="button">Press</label>
+        <button type="button" ><a href="https://www.youtube.com" id="anchor">Youtube</a></button>
+      </div>
+      <div>
+        <label for="time">Enter time</label>
+        <input type="time" id="time" name="time" value="yes">
+      </div>
+      <div>
+        <label for="Date">Enter Date</label>
+        <input type="date" id="Date" name="date" value="yes">
+      </div>
+      <div>
+        <label for="range">select range</label>
+        <input type="range" id="range" name="range" value="yes">
+      </div>
+      <input type="submit" value="Submit">
+    </form>
+  </body>
+</html>
+
+
+
